@@ -1,0 +1,180 @@
+<h3 class="ui header">{{t "forms.i-i-s-onlajjn-magazin-заказы-e.caption"}}</h3>
+
+<form class="ui form flexberry-vertical-form" role="form">
+  {{flexberry-error error=error}}
+  <div class="field">
+    <div class="flexberry-edit-panel">
+      {{#unless readonly}}
+        <button class="ui button save-button" {{action "save"}}>
+          {{t "forms.edit-form.save-button-text"}}
+        </button>
+        {{#unless model.isNew}}
+          <button class="ui button save-del-button" {{action "delete"}}>
+            {{t "forms.edit-form.delete-button-text"}}
+          </button>
+        {{/unless}}
+      {{/unless}}
+      <button class="ui button close-button" {{action "close"}}>
+        {{t "forms.edit-form.close-button-text"}}
+      </button>
+    </div>
+  </div>
+  <div class="field flexberry-validationsummary-container">
+    <div class="sixteen wide">
+      {{flexberry-validationsummary errors=(v-get validationObject "messages")}}
+    </div>
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.кодЗаказа
+      class=(if (v-get validationModel "кодЗаказа" "isInvalid") "error")
+      label=(t "forms.i-i-s-onlajjn-magazin-заказы-e.кодЗаказа-caption")
+      data-test-i-i-s-onlajjn-magazin-заказы-e-кодЗаказа=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "кодЗаказа" "message")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-onlajjn-magazin-заказы-e.дата-caption"}}</label>
+    {{flexberry-simpledatetime
+      type="date"
+      readonly=readonly
+      value=model.дата
+      class=(if (v-get validationModel "дата" "isInvalid") "error")
+      data-test-i-i-s-onlajjn-magazin-заказы-e-дата=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "дата" "message")}}
+  </div>
+  <div class="field" data-test-i-i-s-onlajjn-magazin-заказы-e-типОплаты="true">
+    <label>{{t "forms.i-i-s-onlajjn-magazin-заказы-e.типОплаты-caption"}}</label>
+    {{flexberry-dropdown
+      items=(flexberry-enum "i-i-s-onlajjn-magazin-тип-оплаты")
+      value=model.типОплаты
+      class=(if (v-get validationModel "типОплаты" "isInvalid") "error")
+      readonly=readonly
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "типОплаты" "message")}}
+  </div>
+  <div class="field" data-test-i-i-s-onlajjn-magazin-заказы-e-типВручения="true">
+    <label>{{t "forms.i-i-s-onlajjn-magazin-заказы-e.типВручения-caption"}}</label>
+    {{flexberry-dropdown
+      items=(flexberry-enum "i-i-s-onlajjn-magazin-тип-получения")
+      value=model.типВручения
+      class=(if (v-get validationModel "типВручения" "isInvalid") "error")
+      readonly=readonly
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "типВручения" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.колво
+      class=(if (v-get validationModel "колво" "isInvalid") "error")
+      label=(t "forms.i-i-s-onlajjn-magazin-заказы-e.колво-caption")
+      data-test-i-i-s-onlajjn-magazin-заказы-e-колво=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "колво" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.комментарий
+      class=(if (v-get validationModel "комментарий" "isInvalid") "error")
+      label=(t "forms.i-i-s-onlajjn-magazin-заказы-e.комментарий-caption")
+      data-test-i-i-s-onlajjn-magazin-заказы-e-комментарий=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "комментарий" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.сумма
+      class=(if (v-get validationModel "сумма" "isInvalid") "error")
+      label=(t "forms.i-i-s-onlajjn-magazin-заказы-e.сумма-caption")
+      data-test-i-i-s-onlajjn-magazin-заказы-e-сумма=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "сумма" "message")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-onlajjn-magazin-заказы-e.клиенты-caption"}}</label>
+    {{flexberry-lookup
+      choose="showLookupDialog"
+      remove="removeLookupValue"
+      value=model.клиенты
+      displayAttributeName="фамилия"
+      autocomplete=true
+      relationName="клиенты"
+      projection="КлиентыL"
+      title=(t "forms.i-i-s-onlajjn-magazin-заказы-e.клиенты-caption")
+      readonly=readonly
+      componentName="клиентыLookup"
+      class=(if (v-get validationModel "клиенты" "isInvalid") "error")
+      data-test-i-i-s-onlajjn-magazin-заказы-e-клиенты=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "клиенты" "message")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-onlajjn-magazin-заказы-e.адрес-caption"}}</label>
+    {{flexberry-lookup
+      choose="showLookupDialog"
+      remove="removeLookupValue"
+      value=model.адрес
+      displayAttributeName="город"
+      autocomplete=true
+      relationName="адрес"
+      projection="АдресL"
+      title=(t "forms.i-i-s-onlajjn-magazin-заказы-e.адрес-caption")
+      readonly=readonly
+      componentName="адресLookup"
+      class=(if (v-get validationModel "адрес" "isInvalid") "error")
+      data-test-i-i-s-onlajjn-magazin-заказы-e-адрес=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "адрес" "message")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-onlajjn-magazin-заказы-e.сотрудник-caption"}}</label>
+    {{flexberry-lookup
+      choose="showLookupDialog"
+      remove="removeLookupValue"
+      value=model.сотрудник
+      displayAttributeName="фамилия"
+      autocomplete=true
+      relationName="сотрудник"
+      projection="СотрудникL"
+      title=(t "forms.i-i-s-onlajjn-magazin-заказы-e.сотрудник-caption")
+      readonly=readonly
+      componentName="сотрудникLookup"
+      class=(if (v-get validationModel "сотрудник" "isInvalid") "error")
+      data-test-i-i-s-onlajjn-magazin-заказы-e-сотрудник=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "сотрудник" "message")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-onlajjn-magazin-заказы-e.заказТапочек-caption"}}</label>
+    {{flexberry-groupedit
+      componentName="заказТапочекGroupEdit"
+      mainModelProjection=modelProjection
+      modelProjection=modelProjection.attributes.заказТапочек
+      content=model.заказТапочек
+      readonly=readonly
+      orderable=false
+      class=(if (v-get validationModel "заказТапочек" "isInvalid") "error")
+      data-test-i-i-s-onlajjn-magazin-заказы-e-заказТапочек=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "заказТапочек" "message")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-onlajjn-magazin-заказы-e.заказСланцев-caption"}}</label>
+    {{flexberry-groupedit
+      componentName="заказСланцевGroupEdit"
+      mainModelProjection=modelProjection
+      modelProjection=modelProjection.attributes.заказСланцев
+      content=model.заказСланцев
+      readonly=readonly
+      orderable=false
+      class=(if (v-get validationModel "заказСланцев" "isInvalid") "error")
+      data-test-i-i-s-onlajjn-magazin-заказы-e-заказСланцев=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "заказСланцев" "message")}}
+  </div>
+</form>

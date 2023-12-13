@@ -1,0 +1,71 @@
+﻿{
+  "applicationCaption": "Onlajjn_magazin",
+  "applicationTitle": "Onlajjn_magazin",
+  "items": [
+    {
+      "link": null,
+      "menuName": "onlajjn-magazin",
+      "caption": "Onlajjn_magazin",
+      "title": "Onlajjn_magazin",
+      "children": [
+        {
+          "link": "i-i-s-onlajjn-magazin-сланцы-l",
+          "menuName": null,
+          "caption": "Сланцы",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-onlajjn-magazin-должность-l",
+          "menuName": null,
+          "caption": "Должность",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-onlajjn-magazin-тапочки-l",
+          "menuName": null,
+          "caption": "Тапочки",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-onlajjn-magazin-категория-l",
+          "menuName": null,
+          "caption": "Категория",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-onlajjn-magazin-клиенты-l",
+          "menuName": null,
+          "caption": "Клиенты",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-onlajjn-magazin-сотрудник-l",
+          "menuName": null,
+          "caption": "Сотрудник",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-onlajjn-magazin-заказы-l",
+          "menuName": null,
+          "caption": "Заказы",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-onlajjn-magazin-адрес-l",
+          "menuName": null,
+          "caption": "Адрес",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

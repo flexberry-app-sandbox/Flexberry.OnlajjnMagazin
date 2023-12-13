@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": "категория",
+      "displayAttributeName": "наименование",
+      "required": true,
+      "relationName": "ХарТапочек.Категория",
+      "projection": "КатегорияL",
+      "detailModelName": "i-i-s-onlajjn-magazin-хар-тапочек"
+    }
+  ],
+  "external": false,
+  "caption": "Тапочки",
+  "name": "IISOnlajjn_magazinТапочкиE",
+  "className": "ТапочкиE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-onlajjn-magazin-тапочки",
+      "modelProjection": "ТапочкиE"
+    }
+  ]
+}

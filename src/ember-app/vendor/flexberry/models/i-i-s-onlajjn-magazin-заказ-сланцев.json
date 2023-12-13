@@ -1,0 +1,77 @@
+﻿{
+  "name": "IISOnlajjn_magazinЗаказСланцев",
+  "modelName": "i-i-s-onlajjn-magazin-заказ-сланцев",
+  "className": "ЗаказСланцев",
+  "nameSpace": "IIS.Onlajjn_magazin",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "комментарий",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "сланцы",
+      "relatedTo": "i-i-s-onlajjn-magazin-сланцы",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "заказы",
+      "relatedTo": "i-i-s-onlajjn-magazin-заказы",
+      "inverse": "заказСланцев"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ЗаказСланцевE",
+      "modelName": "i-i-s-onlajjn-magazin-заказ-сланцев",
+      "attrs": [
+        {
+          "name": "комментарий",
+          "caption": "Комментарий",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Наименование",
+          "lookupValueField": "наименование",
+          "relationName": "Сланцы",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "наименование",
+              "caption": "Наименование",
+              "hidden": true,
+              "index": 2
+            }
+          ],
+          "index": 1,
+          "type": "standard",
+          "caption": "Сланцы",
+          "name": "сланцы",
+          "relatedTo": "i-i-s-onlajjn-magazin-сланцы",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-onlajjn-magazin-должность-e",
+  "editForm": "i-i-s-onlajjn-magazin-должность-e",
+  "external": false,
+  "caption": "Должность",
+  "name": "IISOnlajjn_magazinДолжностьL",
+  "className": "ДолжностьL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-onlajjn-magazin-должность",
+      "modelProjection": "ДолжностьL"
+    }
+  ]
+}

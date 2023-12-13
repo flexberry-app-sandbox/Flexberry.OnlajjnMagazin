@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Клиенты",
+  "name": "IISOnlajjn_magazinКлиентыE",
+  "className": "КлиентыE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-onlajjn-magazin-клиенты",
+      "modelProjection": "КлиентыE"
+    }
+  ]
+}

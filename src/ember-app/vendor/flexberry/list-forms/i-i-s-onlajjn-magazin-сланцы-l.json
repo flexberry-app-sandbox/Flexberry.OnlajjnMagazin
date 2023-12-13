@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-onlajjn-magazin-сланцы-e",
+  "editForm": "i-i-s-onlajjn-magazin-сланцы-e",
+  "external": false,
+  "caption": "Сланцы",
+  "name": "IISOnlajjn_magazinСланцыL",
+  "className": "СланцыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-onlajjn-magazin-сланцы",
+      "modelProjection": "СланцыL"
+    }
+  ]
+}

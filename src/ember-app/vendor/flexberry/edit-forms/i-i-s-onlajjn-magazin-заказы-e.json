@@ -1,0 +1,55 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Клиенты",
+      "projection": "КлиентыL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Адрес",
+      "projection": "АдресL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Сотрудник",
+      "projection": "СотрудникL",
+      "detailModelName": null
+    },
+    {
+      "master": "тапочки",
+      "displayAttributeName": "наименование",
+      "required": true,
+      "relationName": "ЗаказТапочек.Тапочки",
+      "projection": "ТапочкиL",
+      "detailModelName": "i-i-s-onlajjn-magazin-заказ-тапочек"
+    },
+    {
+      "master": "сланцы",
+      "displayAttributeName": "наименование",
+      "required": true,
+      "relationName": "ЗаказСланцев.Сланцы",
+      "projection": "СланцыL",
+      "detailModelName": "i-i-s-onlajjn-magazin-заказ-сланцев"
+    }
+  ],
+  "external": false,
+  "caption": "Заказы",
+  "name": "IISOnlajjn_magazinЗаказыE",
+  "className": "ЗаказыE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-onlajjn-magazin-заказы",
+      "modelProjection": "ЗаказыE"
+    }
+  ]
+}

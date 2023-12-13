@@ -1,0 +1,1 @@
+docker-compose -p onlajjn_magazin-java up -d

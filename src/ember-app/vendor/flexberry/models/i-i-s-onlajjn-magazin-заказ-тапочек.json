@@ -1,0 +1,77 @@
+﻿{
+  "name": "IISOnlajjn_magazinЗаказТапочек",
+  "modelName": "i-i-s-onlajjn-magazin-заказ-тапочек",
+  "className": "ЗаказТапочек",
+  "nameSpace": "IIS.Onlajjn_magazin",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "комментарий",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "тапочки",
+      "relatedTo": "i-i-s-onlajjn-magazin-тапочки",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "заказы",
+      "relatedTo": "i-i-s-onlajjn-magazin-заказы",
+      "inverse": "заказТапочек"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ЗаказТапочекE",
+      "modelName": "i-i-s-onlajjn-magazin-заказ-тапочек",
+      "attrs": [
+        {
+          "name": "комментарий",
+          "caption": "Комментарий",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Наименование",
+          "lookupValueField": "наименование",
+          "relationName": "Тапочки",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "наименование",
+              "caption": "Наименование",
+              "hidden": true,
+              "index": 2
+            }
+          ],
+          "index": 1,
+          "type": "standard",
+          "caption": "Тапочки",
+          "name": "тапочки",
+          "relatedTo": "i-i-s-onlajjn-magazin-тапочки",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

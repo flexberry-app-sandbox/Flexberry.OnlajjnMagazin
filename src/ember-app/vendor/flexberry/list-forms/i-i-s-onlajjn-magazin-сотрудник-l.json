@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-onlajjn-magazin-сотрудник-e",
+  "editForm": "i-i-s-onlajjn-magazin-сотрудник-e",
+  "external": false,
+  "caption": "Сотрудник",
+  "name": "IISOnlajjn_magazinСотрудникL",
+  "className": "СотрудникL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-onlajjn-magazin-сотрудник",
+      "modelProjection": "СотрудникL"
+    }
+  ]
+}

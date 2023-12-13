@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1"
+	xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistencehttp://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+    <persistence-unit name="Olingo4PG">
+        <class>Onlajjn_magazin.model.Slancy</class>
+        <class>Onlajjn_magazin.model.Dolzhnost</class>
+        <class>Onlajjn_magazin.model.Tapochki</class>
+        <class>Onlajjn_magazin.model.XarTapochek</class>
+        <class>Onlajjn_magazin.model.ZakazSlancev</class>
+        <class>Onlajjn_magazin.model.XarSlancev</class>
+        <class>Onlajjn_magazin.model.Kategoriya</class>
+        <class>Onlajjn_magazin.model.Klienty</class>
+        <class>Onlajjn_magazin.model.Sotrudnik</class>
+        <class>Onlajjn_magazin.model.Zakazy</class>
+        <class>Onlajjn_magazin.model.Adres</class>
+        <class>Onlajjn_magazin.model.ZakazTapochek</class>
+        <class>Onlajjn_magazin.model.FlexberryAdvLimit</class>
+        <class>Onlajjn_magazin.model.NewPlatformFlexberryFlexberryUserSetting</class>
+        <class>Onlajjn_magazin.model.NewPlatformFlexberryServicesLock</class>
+        <class>Onlajjn_magazin.model.IISCaseberryLoggingObjectsApplicationLog</class>
+
+    </persistence-unit>
+</persistence>

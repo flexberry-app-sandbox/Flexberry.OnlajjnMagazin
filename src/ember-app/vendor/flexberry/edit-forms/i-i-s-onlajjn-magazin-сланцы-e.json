@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": "категория",
+      "displayAttributeName": "наименование",
+      "required": true,
+      "relationName": "ХарСланцев.Категория",
+      "projection": "КатегорияL",
+      "detailModelName": "i-i-s-onlajjn-magazin-хар-сланцев"
+    }
+  ],
+  "external": false,
+  "caption": "Сланцы",
+  "name": "IISOnlajjn_magazinСланцыE",
+  "className": "СланцыE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-onlajjn-magazin-сланцы",
+      "modelProjection": "СланцыE"
+    }
+  ]
+}

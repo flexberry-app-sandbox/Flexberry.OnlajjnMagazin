@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-onlajjn-magazin-заказы-e",
+  "editForm": "i-i-s-onlajjn-magazin-заказы-e",
+  "external": false,
+  "caption": "Заказы",
+  "name": "IISOnlajjn_magazinЗаказыL",
+  "className": "ЗаказыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-onlajjn-magazin-заказы",
+      "modelProjection": "ЗаказыL"
+    }
+  ]
+}

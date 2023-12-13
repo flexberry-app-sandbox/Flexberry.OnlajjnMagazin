@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-onlajjn-magazin-категория-e",
+  "editForm": "i-i-s-onlajjn-magazin-категория-e",
+  "external": false,
+  "caption": "Категория",
+  "name": "IISOnlajjn_magazinКатегорияL",
+  "className": "КатегорияL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-onlajjn-magazin-категория",
+      "modelProjection": "КатегорияL"
+    }
+  ]
+}

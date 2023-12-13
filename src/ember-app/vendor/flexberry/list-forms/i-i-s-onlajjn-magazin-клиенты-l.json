@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-onlajjn-magazin-клиенты-e",
+  "editForm": "i-i-s-onlajjn-magazin-клиенты-e",
+  "external": false,
+  "caption": "Клиенты",
+  "name": "IISOnlajjn_magazinКлиентыL",
+  "className": "КлиентыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-onlajjn-magazin-клиенты",
+      "modelProjection": "КлиентыL"
+    }
+  ]
+}

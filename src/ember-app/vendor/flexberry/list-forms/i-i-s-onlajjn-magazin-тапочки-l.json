@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-onlajjn-magazin-тапочки-e",
+  "editForm": "i-i-s-onlajjn-magazin-тапочки-e",
+  "external": false,
+  "caption": "Тапочки",
+  "name": "IISOnlajjn_magazinТапочкиL",
+  "className": "ТапочкиL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-onlajjn-magazin-тапочки",
+      "modelProjection": "ТапочкиL"
+    }
+  ]
+}
