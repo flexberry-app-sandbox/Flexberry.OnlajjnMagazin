@@ -42,10 +42,5 @@ namespace IIS.Onlajjn_magazin
 
         // *** End programmer edit section *** (ТипОплаты.ПриВстрече CustomAttributes)
         ПриВстрече,
-        
-        // *** Start programmer edit section *** (ТипОплаты.int CustomAttributes)
-
-        // *** End programmer edit section *** (ТипОплаты.int CustomAttributes)
-        @int,
     }
 }
