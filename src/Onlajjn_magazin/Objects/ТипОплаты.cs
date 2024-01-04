@@ -28,21 +28,6 @@ namespace IIS.Onlajjn_magazin
     public enum ТипОплаты
     {
         
-        // *** Start programmer edit section *** (ТипОплаты.1 CustomAttributes)
-
-        // *** End programmer edit section *** (ТипОплаты.1 CustomAttributes)
-        1,
-        
-        // *** Start programmer edit section *** (ТипОплаты.2 CustomAttributes)
-
-        // *** End programmer edit section *** (ТипОплаты.2 CustomAttributes)
-        2,
-        
-        // *** Start programmer edit section *** (ТипОплаты.3 CustomAttributes)
-
-        // *** End programmer edit section *** (ТипОплаты.3 CustomAttributes)
-        3,
-        
         // *** Start programmer edit section *** (ТипОплаты.Наличные CustomAttributes)
 
         // *** End programmer edit section *** (ТипОплаты.Наличные CustomAttributes)
@@ -57,5 +42,10 @@ namespace IIS.Onlajjn_magazin
 
         // *** End programmer edit section *** (ТипОплаты.ПриВстрече CustomAttributes)
         ПриВстрече,
+        
+        // *** Start programmer edit section *** (ТипОплаты.int CustomAttributes)
+
+        // *** End programmer edit section *** (ТипОплаты.int CustomAttributes)
+        @int,
     }
 }
