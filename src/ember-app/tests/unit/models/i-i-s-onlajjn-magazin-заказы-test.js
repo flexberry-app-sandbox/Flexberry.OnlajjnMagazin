@@ -11,6 +11,7 @@ moduleForModel('i-i-s-onlajjn-magazin-заказы', 'Unit | Model | i-i-s-onlaj
     'model:i-i-s-onlajjn-magazin-категория',
     'model:i-i-s-onlajjn-magazin-клиенты',
     'model:i-i-s-onlajjn-magazin-сланцы',
+    'model:i-i-s-onlajjn-magazin-события',
     'model:i-i-s-onlajjn-magazin-сотрудник',
     'model:i-i-s-onlajjn-magazin-тапочки',
     'model:i-i-s-onlajjn-magazin-хар-сланцев',

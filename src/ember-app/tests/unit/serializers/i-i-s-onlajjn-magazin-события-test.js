@@ -1,8 +1,19 @@
 import { moduleForModel, test } from 'ember-qunit';
 
-moduleForModel('i-i-s-onlajjn-magazin-сланцы', 'Unit | Model | i-i-s-onlajjn-magazin-сланцы', {
+moduleForModel('i-i-s-onlajjn-magazin-события', 'Unit | Serializer | i-i-s-onlajjn-magazin-события', {
   // Specify the other units that are required for this test.
   needs: [
+    'serializer:i-i-s-onlajjn-magazin-события',
+    'service:syncer',
+    'transform:file',
+    'transform:decimal',
+    'transform:guid',
+
+    'transform:i-i-s-onlajjn-magazin-тип-оплаты',
+    'transform:i-i-s-onlajjn-magazin-тип-получения',
+
+    'transform:i-i-s-onlajjn-magazin-управляющий-объект',
+
     'model:i-i-s-onlajjn-magazin-адрес',
     'model:i-i-s-onlajjn-magazin-должность',
     'model:i-i-s-onlajjn-magazin-заказ-сланцев',
@@ -22,13 +33,14 @@ moduleForModel('i-i-s-onlajjn-magazin-сланцы', 'Unit | Model | i-i-s-onlaj
     'validator:date',
     'validator:belongs-to',
     'validator:has-many',
-    'service:syncer',
   ],
 });
 
-test('it exists', function(assert) {
-  let model = this.subject();
+// Replace this with your real tests.
+test('it serializes records', function(assert) {
+  let record = this.subject();
 
-  // let store = this.store();
-  assert.ok(!!model);
+  let serializedRecord = record.serialize();
+
+  assert.ok(serializedRecord);
 });

@@ -69,6 +69,13 @@ CREATE TABLE Клиенты (
  PRIMARY KEY (primaryKey));
 
 
+CREATE TABLE События (
+ primaryKey UUID NOT NULL,
+ Код INT NULL,
+ Описание VARCHAR(255) NULL,
+ PRIMARY KEY (primaryKey));
+
+
 CREATE TABLE Сотрудник (
  primaryKey UUID NOT NULL,
  КодСотрудника INT NULL,
@@ -84,7 +91,7 @@ CREATE TABLE Заказы (
  primaryKey UUID NOT NULL,
  КодЗаказа INT NULL,
  Дата TIMESTAMP(3) NULL,
- ТипОплаты VARCHAR(1) NULL,
+ ТипОплаты VARCHAR(10) NULL,
  ТипВручения VARCHAR(1) NULL,
  Колво INT NULL,
  Комментарий VARCHAR(255) NULL,

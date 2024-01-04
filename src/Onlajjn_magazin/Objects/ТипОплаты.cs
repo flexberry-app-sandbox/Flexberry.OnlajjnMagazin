@@ -42,5 +42,20 @@ namespace IIS.Onlajjn_magazin
 
         // *** End programmer edit section *** (ТипОплаты.3 CustomAttributes)
         3,
+        
+        // *** Start programmer edit section *** (ТипОплаты.Наличные CustomAttributes)
+
+        // *** End programmer edit section *** (ТипОплаты.Наличные CustomAttributes)
+        Наличные,
+        
+        // *** Start programmer edit section *** (ТипОплаты.Картой CustomAttributes)
+
+        // *** End programmer edit section *** (ТипОплаты.Картой CustomAttributes)
+        Картой,
+        
+        // *** Start programmer edit section *** (ТипОплаты.ПриВстрече CustomAttributes)
+
+        // *** End programmer edit section *** (ТипОплаты.ПриВстрече CustomAttributes)
+        ПриВстрече,
     }
 }

@@ -34,43 +34,43 @@ export default Controller.extend({
             link: 'i-i-s-onlajjn-magazin-должность-l',
             caption: i18n.t('forms.application.sitemap.onlajjn-magazin.i-i-s-onlajjn-magazin-должность-l.caption'),
             title: i18n.t('forms.application.sitemap.onlajjn-magazin.i-i-s-onlajjn-magazin-должность-l.title'),
-            icon: 'suitcase',
+            icon: 'book',
             children: null
           }, {
             link: 'i-i-s-onlajjn-magazin-тапочки-l',
             caption: i18n.t('forms.application.sitemap.onlajjn-magazin.i-i-s-onlajjn-magazin-тапочки-l.caption'),
             title: i18n.t('forms.application.sitemap.onlajjn-magazin.i-i-s-onlajjn-magazin-тапочки-l.title'),
-            icon: 'address card',
+            icon: 'book',
             children: null
           }, {
             link: 'i-i-s-onlajjn-magazin-категория-l',
             caption: i18n.t('forms.application.sitemap.onlajjn-magazin.i-i-s-onlajjn-magazin-категория-l.caption'),
             title: i18n.t('forms.application.sitemap.onlajjn-magazin.i-i-s-onlajjn-magazin-категория-l.title'),
-            icon: 'building',
+            icon: 'calendar',
             children: null
           }, {
             link: 'i-i-s-onlajjn-magazin-клиенты-l',
             caption: i18n.t('forms.application.sitemap.onlajjn-magazin.i-i-s-onlajjn-magazin-клиенты-l.caption'),
             title: i18n.t('forms.application.sitemap.onlajjn-magazin.i-i-s-onlajjn-magazin-клиенты-l.title'),
-            icon: 'file',
+            icon: 'briefcase',
             children: null
           }, {
             link: 'i-i-s-onlajjn-magazin-сотрудник-l',
             caption: i18n.t('forms.application.sitemap.onlajjn-magazin.i-i-s-onlajjn-magazin-сотрудник-l.caption'),
             title: i18n.t('forms.application.sitemap.onlajjn-magazin.i-i-s-onlajjn-magazin-сотрудник-l.title'),
-            icon: 'list',
+            icon: 'table',
             children: null
           }, {
             link: 'i-i-s-onlajjn-magazin-заказы-l',
             caption: i18n.t('forms.application.sitemap.onlajjn-magazin.i-i-s-onlajjn-magazin-заказы-l.caption'),
             title: i18n.t('forms.application.sitemap.onlajjn-magazin.i-i-s-onlajjn-magazin-заказы-l.title'),
-            icon: 'edit',
+            icon: 'book',
             children: null
           }, {
             link: 'i-i-s-onlajjn-magazin-адрес-l',
             caption: i18n.t('forms.application.sitemap.onlajjn-magazin.i-i-s-onlajjn-magazin-адрес-l.caption'),
             title: i18n.t('forms.application.sitemap.onlajjn-magazin.i-i-s-onlajjn-magazin-адрес-l.title'),
-            icon: 'folder',
+            icon: 'chart line',
             children: null
           }]
         }

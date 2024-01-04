@@ -110,6 +110,17 @@ CREATE TABLE [Клиенты] (
 	 PRIMARY KEY ([primaryKey]))
 
 
+CREATE TABLE [События] (
+
+	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,
+
+	 [Код] INT  NULL,
+
+	 [Описание] VARCHAR(255)  NULL,
+
+	 PRIMARY KEY ([primaryKey]))
+
+
 CREATE TABLE [Сотрудник] (
 
 	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,
@@ -145,7 +156,7 @@ CREATE TABLE [Заказы] (
 
 	 [ТипВручения] VARCHAR(1)  NULL,
 
-	 [ТипОплаты] VARCHAR(1)  NULL,
+	 [ТипОплаты] VARCHAR(10)  NULL,
 
 	 [Адрес] UNIQUEIDENTIFIER  NOT NULL,
 

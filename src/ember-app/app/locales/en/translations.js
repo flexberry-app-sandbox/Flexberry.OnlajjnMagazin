@@ -25,6 +25,7 @@ import IISOnlajjn_magazinЗаказыModel from './models/i-i-s-onlajjn-magazin-
 import IISOnlajjn_magazinКатегорияModel from './models/i-i-s-onlajjn-magazin-категория';
 import IISOnlajjn_magazinКлиентыModel from './models/i-i-s-onlajjn-magazin-клиенты';
 import IISOnlajjn_magazinСланцыModel from './models/i-i-s-onlajjn-magazin-сланцы';
+import IISOnlajjn_magazinСобытияModel from './models/i-i-s-onlajjn-magazin-события';
 import IISOnlajjn_magazinСотрудникModel from './models/i-i-s-onlajjn-magazin-сотрудник';
 import IISOnlajjn_magazinТапочкиModel from './models/i-i-s-onlajjn-magazin-тапочки';
 import IISOnlajjn_magazinХарСланцевModel from './models/i-i-s-onlajjn-magazin-хар-сланцев';
@@ -43,13 +44,14 @@ $.extend(true, translations, {
     'i-i-s-onlajjn-magazin-категория': IISOnlajjn_magazinКатегорияModel,
     'i-i-s-onlajjn-magazin-клиенты': IISOnlajjn_magazinКлиентыModel,
     'i-i-s-onlajjn-magazin-сланцы': IISOnlajjn_magazinСланцыModel,
+    'i-i-s-onlajjn-magazin-события': IISOnlajjn_magazinСобытияModel,
     'i-i-s-onlajjn-magazin-сотрудник': IISOnlajjn_magazinСотрудникModel,
     'i-i-s-onlajjn-magazin-тапочки': IISOnlajjn_magazinТапочкиModel,
     'i-i-s-onlajjn-magazin-хар-сланцев': IISOnlajjn_magazinХарСланцевModel,
     'i-i-s-onlajjn-magazin-хар-тапочек': IISOnlajjn_magazinХарТапочекModel
   },
 
-  'application-name': 'Onlajjn_magazin',
+  'application-name': '',
 
   forms: {
     loading: {
@@ -88,7 +90,7 @@ $.extend(true, translations, {
       },
 
       footer: {
-        'application-name': 'Onlajjn_magazin',
+        'application-name': '',
         'application-version': {
           caption: 'Addon version {{version}}',
           title: 'It is version of ember-flexberry addon, which uses in this dummy application ' +
@@ -99,8 +101,8 @@ $.extend(true, translations, {
 
       sitemap: {
         'application-name': {
-          caption: 'Onlajjn_magazin',
-          title: 'Onlajjn_magazin'
+          caption: '',
+          title: ''
         },
         'application-version': {
           caption: 'Addon version {{version}}',

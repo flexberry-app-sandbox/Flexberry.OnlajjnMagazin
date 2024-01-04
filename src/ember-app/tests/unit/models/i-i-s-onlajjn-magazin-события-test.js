@@ -1,6 +1,6 @@
 import { moduleForModel, test } from 'ember-qunit';
 
-moduleForModel('i-i-s-onlajjn-magazin-сланцы', 'Unit | Model | i-i-s-onlajjn-magazin-сланцы', {
+moduleForModel('i-i-s-onlajjn-magazin-события', 'Unit | Model | i-i-s-onlajjn-magazin-события', {
   // Specify the other units that are required for this test.
   needs: [
     'model:i-i-s-onlajjn-magazin-адрес',

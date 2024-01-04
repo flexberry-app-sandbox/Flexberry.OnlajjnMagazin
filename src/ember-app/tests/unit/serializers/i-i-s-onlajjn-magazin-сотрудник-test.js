@@ -12,6 +12,8 @@ moduleForModel('i-i-s-onlajjn-magazin-сотрудник', 'Unit | Serializer | 
     'transform:i-i-s-onlajjn-magazin-тип-оплаты',
     'transform:i-i-s-onlajjn-magazin-тип-получения',
 
+    'transform:i-i-s-onlajjn-magazin-управляющий-объект',
+
     'model:i-i-s-onlajjn-magazin-адрес',
     'model:i-i-s-onlajjn-magazin-должность',
     'model:i-i-s-onlajjn-magazin-заказ-сланцев',
@@ -20,6 +22,7 @@ moduleForModel('i-i-s-onlajjn-magazin-сотрудник', 'Unit | Serializer | 
     'model:i-i-s-onlajjn-magazin-категория',
     'model:i-i-s-onlajjn-magazin-клиенты',
     'model:i-i-s-onlajjn-magazin-сланцы',
+    'model:i-i-s-onlajjn-magazin-события',
     'model:i-i-s-onlajjn-magazin-сотрудник',
     'model:i-i-s-onlajjn-magazin-тапочки',
     'model:i-i-s-onlajjn-magazin-хар-сланцев',

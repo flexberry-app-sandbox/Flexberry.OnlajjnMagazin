@@ -11,6 +11,7 @@
         <class>Onlajjn_magazin.model.XarSlancev</class>
         <class>Onlajjn_magazin.model.Kategoriya</class>
         <class>Onlajjn_magazin.model.Klienty</class>
+        <class>Onlajjn_magazin.model.Sobytiya</class>
         <class>Onlajjn_magazin.model.Sotrudnik</class>
         <class>Onlajjn_magazin.model.Zakazy</class>
         <class>Onlajjn_magazin.model.Adres</class>

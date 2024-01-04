@@ -126,6 +126,19 @@ CREATE TABLE "Клиенты"
 ) ;
 
 
+CREATE TABLE "События"
+(
+
+	"primaryKey" RAW(16) NOT NULL,
+
+	"Код" NUMBER(10) NULL,
+
+	"Описание" NVARCHAR2(255) NULL,
+
+	 PRIMARY KEY ("primaryKey")
+) ;
+
+
 CREATE TABLE "Сотрудник"
 (
 
@@ -156,7 +169,7 @@ CREATE TABLE "Заказы"
 
 	"Дата" DATE NULL,
 
-	"ТипОплаты" NVARCHAR2(1) NULL,
+	"ТипОплаты" NVARCHAR2(10) NULL,
 
 	"ТипВручения" NVARCHAR2(1) NULL,
 
